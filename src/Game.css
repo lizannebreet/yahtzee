@@ -1,5 +1,5 @@
 .Game {
-  width: 40%;
+  width: 30%;
   background: white;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
   margin: 0 30%;
@@ -10,7 +10,7 @@
 }
 h2 {
   font-weight: 100;
-  font-size: 2em;
+  font-size: 2rem;
   border-bottom: 2px solid purple;
   display: inline-block;
 }
@@ -71,7 +71,7 @@ h2 {
 .Game-header {
   width: 100%;
   background: linear-gradient(-45deg, #673ab7, #9c27b0);
-  background-size: 400% 400%;
+  background-size: auto;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
